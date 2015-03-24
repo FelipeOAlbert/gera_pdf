@@ -90,33 +90,36 @@ div.text {
  margin: 1em 0;
  text-align:justify;
 }
-.code {
- font-family: mono;
- font-size: 9pt;
- background-color: #d5d5d5;
- margin: 1em 1cm;
- padding: 0 0.3cm;
-}
+
 </style>
 <body>
-<div style="position:fixed; top: 0; right: 0"><img src="tux.svg" width="110" /></div>
-<h1></a>mPDF</h1>
-<h2>Other new features in mPDF Version 5.1</h2>
-<div class="rounded text">
-<ul>
-<li>Kerning</li>
-<li>Letter- and word-spacing</li>
-<li>Small-caps improved to work with justified text, and now with kerning, letter- and
-word-spacing</li>
-<li>Bleed area on @page media</li>
-<li>Colorspace and colour conversion (almost everything except BMP images)</li>
-<li>Spot colours</li>
-<li>PDF/X files</li>
-<li>dir="rtl"</li>
-<li>numeric list-styles for arabic and indic</li>
-</ul>
-</div>
+        <div>
+            
+            <img src="image/produto_rgb.jpg" width="100" />
+            
+            <br />
+            <br />
+            <label>Descrição do produto a ser encartado</label>
+            <br />
+            <br />
+            <label>Preço do produto: R$99,99</label>
+            
+        </div>
+        <div style="background-color: cmyk(1,0,0,0);">
+            C
+        </div>
+        <div style="background-color: cmyk(0,1,0,0);">
+            M
+        </div>
+        <div style="background-color: cmyk(0,0,2,0);">
+            Y
+        </div>
+        <div style="background-color: cmyk(0,0,0,1);">
+            K
+        </div>
+    </body>
 ';
+
 //==============================================================
 $mpdf->WriteHTML($html);
 //==============================================================//==============================================================

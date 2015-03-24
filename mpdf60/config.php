@@ -8,9 +8,9 @@ $this->forcePortraitMargins = false;
 $this->displayDefaultOrientation = false;
 $this->printers_info = false; 	// Adds date and page info for printer when using @page and "marks:crop;"
 $this->bleedMargin = 5;
-$this->crossMarkMargin = 8;		// Distance of cross mark from margin in mm
-$this->cropMarkMargin = 8;		// Distance of crop mark from margin in mm
-$this->cropMarkLength = 18;		// Default length in mm of crop line
+$this->crossMarkMargin = 7;		// Distance of cross mark from margin in mm
+$this->cropMarkMargin = 1;		// Distance of crop mark from margin in mm
+$this->cropMarkLength = 5;		// Default length in mm of crop line
 $this->nonPrintMargin = 8;		// Non-printable border at edge of paper sheet in mm
 $this->defaultPagebreakType = 'cloneall';	// 'slice' or 'cloneall' or 'clonebycss' - for forced pagebreaks using <pagebreak />
 							// Automatic pagebreaks (flow in text) are always 'slice'

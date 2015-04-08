@@ -67,32 +67,27 @@ $html = '
  margin-left: 1cm;
  margin-right: 1cm;
  marks: cross crop;
- background-image: -moz-repeating-radial-gradient(rgba(255,0,0,0.1), rgba(0,0,255,0.1)
-40px, rgba(255,0,0,0.1) 80px);
+ background-image: -moz-repeating-radial-gradient(rgba(255,0,0,0.1), rgba(0,0,255,0.1) 40px, rgba(255,0,0,0.1) 80px);
 }
-body {
- font-family: sans-serif;
- font-size: 10pt;
-}
-h4 {
- font-variant: small-caps;
-}
-h5 {
- margin-bottom: 0;
- color: #110044;
-}
-p { margin-top: 0; }
-dl {
- margin: 0;
-}
-div.text {
- padding:1em;
- margin: 1em 0;
- text-align:justify;
-}
+body { position: relative; }
+.cmyk div{ float: left; display: block; }
 
 </style>
 <body>
+<div class="cmyk" style="width:0.55cm; height: 0.05cm; position: absolute; top: 0; left:110px; border: 1px solid #595959;">
+    <div style="width:0.47cm;height:0.52cm;background-color: cmyk(75%, 68%, 67%, 90%);">&nbsp;</div>
+    <div style="width:0.47cm;height:0.52cm;background-color: cmyk(73%, 67%, 65%, 78%);">&nbsp;</div>
+    <div style="width:0.47cm;height:0.52cm;background-color: cmyk(69%, 63%, 62%, 58%);">&nbsp;</div>
+    <div style="width:0.47cm;height:0.52cm;background-color: cmyk(65%, 58%, 57%, 37%);">&nbsp;</div>
+    <div style="width:0.47cm;height:0.52cm;background-color: cmyk(60%, 51%, 51%, 20%);">&nbsp;</div>
+    <div style="width:0.47cm;height:0.52cm;background-color: cmyk(52%, 43%, 43%, 8%);">&nbsp;</div>
+    <div style="width:0.47cm;height:0.52cm;background-color: cmyk(43%, 35%, 35%, 1%);">&nbsp;</div>
+    <div style="width:0.47cm;height:0.52cm;background-color: cmyk(31%, 25%, 25%, 0%);">&nbsp;</div>
+    <div style="width:0.47cm;height:0.52cm;background-color: cmyk(19%, 15%, 16%, 0%);">&nbsp;</div>
+    <div style="width:0.47cm;height:0.52cm;background-color: cmyk(9%, 6%, 7%, 0%);">&nbsp;</div>
+    <div style="width:0.47cm;height:0.52cm;background-color: cmyk(0%, 0%, 0%, 0%);">&nbsp;</div>
+    <div style="clear:both;"></div>
+</div>
         <div>
             
             <img src="image/produto_rgb.jpg" width="100" />

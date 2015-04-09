@@ -73,10 +73,10 @@ body { position: relative; }
 
 </style>
 <body>
-<div style="width:54.61mm; height: 5.16mm; position: absolute; top: 0; left:30px; border: 1px solid #595959;">
+<div style="width:54.61mm; height: 4.8mm; position: absolute; top: 0; left:30px;">
     <img src="image/cinza.jpg" alt="">
 </div>
-<div style="width:54.61mm; height: 5.25mm; position: absolute; top: 0; right:30px; border: 1px solid #595959;">
+<div style="width:54.61mm; height: 4.8mm; position: absolute; top: 0; right:30px;">
     <img src="image/cores.jpg" alt="">
 </div>
         <div>

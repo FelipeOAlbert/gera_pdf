@@ -70,23 +70,14 @@ $html = '
  background-image: -moz-repeating-radial-gradient(rgba(255,0,0,0.1), rgba(0,0,255,0.1) 40px, rgba(255,0,0,0.1) 80px);
 }
 body { position: relative; }
-.cmyk div{ float: left; display: block; }
 
 </style>
 <body>
-<div class="cmyk" style="width:0.55cm; height: 0.05cm; position: absolute; top: 0; left:110px; border: 1px solid #595959;">
-    <div style="width:0.47cm;height:0.52cm;background-color: cmyk(75%, 68%, 67%, 90%);">&nbsp;</div>
-    <div style="width:0.47cm;height:0.52cm;background-color: cmyk(73%, 67%, 65%, 78%);">&nbsp;</div>
-    <div style="width:0.47cm;height:0.52cm;background-color: cmyk(69%, 63%, 62%, 58%);">&nbsp;</div>
-    <div style="width:0.47cm;height:0.52cm;background-color: cmyk(65%, 58%, 57%, 37%);">&nbsp;</div>
-    <div style="width:0.47cm;height:0.52cm;background-color: cmyk(60%, 51%, 51%, 20%);">&nbsp;</div>
-    <div style="width:0.47cm;height:0.52cm;background-color: cmyk(52%, 43%, 43%, 8%);">&nbsp;</div>
-    <div style="width:0.47cm;height:0.52cm;background-color: cmyk(43%, 35%, 35%, 1%);">&nbsp;</div>
-    <div style="width:0.47cm;height:0.52cm;background-color: cmyk(31%, 25%, 25%, 0%);">&nbsp;</div>
-    <div style="width:0.47cm;height:0.52cm;background-color: cmyk(19%, 15%, 16%, 0%);">&nbsp;</div>
-    <div style="width:0.47cm;height:0.52cm;background-color: cmyk(9%, 6%, 7%, 0%);">&nbsp;</div>
-    <div style="width:0.47cm;height:0.52cm;background-color: cmyk(0%, 0%, 0%, 0%);">&nbsp;</div>
-    <div style="clear:both;"></div>
+<div style="width:54.61mm; height: 5.16mm; position: absolute; top: 0; left:30px; border: 1px solid #595959;">
+    <img src="image/cinza.jpg" alt="">
+</div>
+<div style="width:54.61mm; height: 5.25mm; position: absolute; top: 0; right:30px; border: 1px solid #595959;">
+    <img src="image/cores.jpg" alt="">
 </div>
         <div>
             
